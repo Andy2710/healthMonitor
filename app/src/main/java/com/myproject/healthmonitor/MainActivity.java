@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         presBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d(TAG, "pressure button clicked");
                 Intent intent = new Intent(MainActivity. this, Main2Activity.class);
                 startActivity(intent);
             }
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         liveIndBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d(TAG, "liveIndicator button clicked");
                Intent intent = new Intent(MainActivity. this, Main3Activity.class);
                startActivity(intent);
             }
