@@ -49,7 +49,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/Age"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/saveBtn1"
         app:layout_constraintStart_toStartOf="@+id/userName"
         app:layout_constraintTop_toBottomOf="@+id/userName"
